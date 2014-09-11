@@ -45,6 +45,9 @@ public class News {
         this.fecha = fecha;
     }
     
+    public getKey() {
+	return this.id + 22;    	
+    }
     
     
     
